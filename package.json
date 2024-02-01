@@ -1,5 +1,5 @@
 {
-  "name": "c-c_yosay",
+  "name": "c-yosay",
   "version": "1.0.0",
   "description": "Tell Coherent Yeoman what to say",
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/uuidjs/uuid.git"
+    "url": "https://github.com/anbucoherent/c-yosay.git"
   },
   "keywords": [
     "cli-app"
