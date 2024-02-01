@@ -2,10 +2,6 @@
 
 > Tell Yeoman what to say
 
-Like [cowsay](https://en.wikipedia.org/wiki/Cowsay), but less cow.
-
-![](screenshot.png)
-
 ## Install
 
 ```sh
@@ -15,19 +11,20 @@ npm install c-yosay
 ## Usage
 
 ```js
-import yosay from 'yosay';
+import yosay from 'c-yosay';
 
-console.log(yosay('Hello, and welcome to my fantastic generator full of whimsy and bubble gum!'));
+console.log(yosay('Welcome to Yeoman, ladies and gentlemen!'));
 
 /*
-     _-----_     ╭──────────────────────────╮
-    |       |    │  Welcome to the polished │
-    |--(c)--|    │ something iloveunicornsi │
-   `----o----´   │ loveunicornsiloveunicorn │
-    ( _´h`_ )    │ siloveunicornsiloveunico │
-    /___e___\   /│     rnsiloveunicorns     │
-     |  r  |     │        generator!        │
-   __'._e_.'__   ╰──────────────────────────╯
+
+     _-----_
+    |       |    ╭──────────────────────────╮
+    |--(c)--|    │    Welcome to Yeoman,    │
+   `----o----´   │   ladies and gentlemen!  │
+    ( _´h`_ )    ╰──────────────────────────╯
+    /___e___\   /
+     |  r  |
+   __'._e_.'__
  ´   `  nt ´ | `
 */
 ```
@@ -37,7 +34,7 @@ console.log(yosay('Hello, and welcome to my fantastic generator full of whimsy a
 ## CLI
 
 ```sh
-npm install --global yosay
+npm install --global c-yosay
 ```
 
 ```
@@ -49,15 +46,16 @@ $ yosay --help
     $ echo <string> | yosay
 
   Example
-    $ yosay 'Sindre is a horse'
+    $ yosay 'Welcome to Yeoman, ladies and gentlemen!'
 
-     _-----_     ╭──────────────────────────╮
-    |       |    │  Welcome to the polished │
-    |--(c)--|    │ something iloveunicornsi │
-   `----o----´   │ loveunicornsiloveunicorn │
-    ( _´h`_ )    │ siloveunicornsiloveunico │
-    /___e___\   /│     rnsiloveunicorns     │
-     |  r  |     │        generator!        │
-   __'._e_.'__   ╰──────────────────────────╯
+     _-----_
+    |       |    ╭──────────────────────────╮
+    |--(c)--|    │    Welcome to Yeoman,    │
+   `----o----´   │   ladies and gentlemen!  │
+    ( _´h`_ )    ╰──────────────────────────╯
+    /___e___\   /
+     |  r  |
+   __'._e_.'__
  ´   `  nt ´ | `
+
 ```
