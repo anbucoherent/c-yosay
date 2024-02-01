@@ -1,0 +1,29 @@
+{
+  "name": "c-c_yosay",
+  "version": "1.0.0",
+  "description": "Tell Coherent Yeoman what to say",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "cli-app"
+  ],
+  "author": "Coherent pixel systems",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-regex": "^6.0.1",
+    "ansi-styles": "^6.2.1",
+    "chalk": "^5.3.0",
+    "cli-boxes": "^3.0.0",
+    "meow": "^13.1.0",
+    "pad-component": "^0.0.1",
+    "string-width": "^7.1.0",
+    "strip-ansi": "^7.1.0",
+    "wrap-ansi": "^9.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
