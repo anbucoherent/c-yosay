@@ -13,13 +13,13 @@ npm install c-yosay
 ```js
 import yosay from 'c-yosay';
 
-console.log(yosay('Welcome to Yeoman, ladies and gentlemen!'));
+console.log(yosay('Welcome to Coherent, ladies and gentlemen!'));
 
 /*
 
      _-----_
     |       |    ╭──────────────────────────╮
-    |--(c)--|    │    Welcome to Yeoman,    │
+    |--(c)--|    │    Welcome to Coherent,  │
    `----o----´   │   ladies and gentlemen!  │
     ( _´h`_ )    ╰──────────────────────────╯
     /___e___\   /
@@ -46,11 +46,11 @@ $ yosay --help
     $ echo <string> | yosay
 
   Example
-    $ yosay 'Welcome to Yeoman, ladies and gentlemen!'
+    $ yosay 'Welcome to Coherent, ladies and gentlemen!'
 
      _-----_
     |       |    ╭──────────────────────────╮
-    |--(c)--|    │    Welcome to Yeoman,    │
+    |--(c)--|    │    Welcome to Coherent,  │
    `----o----´   │   ladies and gentlemen!  │
     ( _´h`_ )    ╰──────────────────────────╯
     /___e___\   /
