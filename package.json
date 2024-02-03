@@ -1,6 +1,6 @@
 {
   "name": "c-yosay",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tell Coherent Yeoman what to say",
   "type": "module",
   "main": "index.js",
